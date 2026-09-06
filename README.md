@@ -53,11 +53,11 @@ also has independent diagonal entries of variance two; the ordinary hafnian
 does not depend on the diagonal. Theorem 2.3 states
 
 ```math
-\sigma_n^2=\mathbb{E}|\operatorname{haf}(S)|^2=(2n-1)!!.
+\sigma_n^2=\mathbb{E}|\mathrm{haf}(S)|^2=(2n-1)!!.
 ```
 
 ```math
-\mathbb{P}\{|\operatorname{haf}(S)-z|\le\varepsilon\sigma_n\}
+\mathbb{P}\{|\mathrm{haf}(S)-z|\le\varepsilon\sigma_n\}
 \le\min\{1,b_n\varepsilon^2\},\qquad b_n\le2\sqrt{n/\pi}.
 ```
 
