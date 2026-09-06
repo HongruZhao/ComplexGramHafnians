@@ -10,8 +10,8 @@ standard foundations: `propext`, `Classical.choice`, and `Quot.sound`.
 
 ## Results
 
-For `n ≥ 1`, `k ≥ 4n`, let `X` be a `k × 2n` matrix with independent circular
-complex Gaussian entries of variance one, and let `H = haf(XᵀX)`. Write
+For $n \ge 1$, $k \ge 4n$, let $X$ be a $k \times 2n$ matrix with independent circular
+complex Gaussian entries of variance one, and let $H=\mathrm{haf}(X^{\mathsf{T}}X)$. Write
 
 ```math
 \sigma_{k,n}^2=\mathbb{E}|H|^2
@@ -24,7 +24,7 @@ B_{k,n}=b_n\frac{k}{k-1}
 \prod_{r=2}^{n}\frac{k+2r-2}{k-4r+1}.
 ```
 
-Theorem 2.1 states, for every center `z ∈ ℂ` and `ε ≥ 0`,
+Theorem 2.1 states, for every center $z\in\mathbb{C}$ and $\varepsilon\ge 0$,
 
 ```math
 \mathbb{P}\{|H-z|\le\varepsilon\sigma_{k,n}\}
@@ -32,22 +32,22 @@ Theorem 2.1 states, for every center `z ∈ ℂ` and `ε ≥ 0`,
 ```
 
 The public specification also includes the exact second moment, positivity of
-the normalization, the displayed product for `B`, the finite bound
+the normalization, the displayed product for $B_{k,n}$, the finite bound
 
 ```math
 B_{k,n}\le b_n\exp\!\left(
 \frac{3n^2-2}{k}+\frac{9n^3}{k(k-4n+1)}\right),
 ```
 
-the limit `B_{k,n} → b_n` for fixed `n`, and the quantified logarithmic remainder
-for `k ≥ 8n`:
+the limit $B_{k,n}\to b_n$ as $k\to\infty$ for fixed $n$, and the quantified logarithmic remainder
+for $k \ge 8n$:
 
 ```math
 B_{k,n}=b_n e^{3n^2/k+\theta},\qquad
-|\theta|\le 2/k+94n^3/k^2.
+|\theta|\le \frac{2}{k}+\frac{94n^3}{k^2}.
 ```
 
-For a `2n × 2n` complex symmetric Gaussian matrix `S`, its upper off-diagonal
+For a $2n \times 2n$ complex symmetric Gaussian matrix $S$, its upper off-diagonal
 entries are independent circular Gaussians of variance one. The full model
 also has independent diagonal entries of variance two; the ordinary hafnian
 does not depend on the diagonal. Theorem 2.3 states
@@ -63,8 +63,8 @@ does not depend on the diagonal. Theorem 2.3 states
 
 | Public declaration | Specification |
 | --- | --- |
-| `ComplexGramHafnians.theorem2_1` | `Theorem21 n k`, under `1 ≤ n` and `4*n ≤ k` |
-| `ComplexGramHafnians.theorem2_3` | `Theorem23 n`, under `1 ≤ n` |
+| `ComplexGramHafnians.theorem2_1` | `Theorem21 n k`, under $1\le n$ and $4n\le k$ |
+| `ComplexGramHafnians.theorem2_3` | `Theorem23 n`, under $1\le n$ |
 
 Read [Challenge.lean](Challenge.lean) for every field of these specifications
 and [ComplexGramHafnians.lean](ComplexGramHafnians.lean) for their proofs.
@@ -108,7 +108,7 @@ result is inferred from the reference repositories.
 results. Only the two headline results are the coverage claim of this focused
 release. The independent perturbation corollary, Wick obstruction, extended
 density conclusions, and the paper's other appendices are outside that claim.
-In particular, the sufficient range `k ≥ 4n` is not asserted to be sharp.
+In particular, the sufficient range $k \ge 4n$ is not asserted to be sharp.
 
 See [formalization.yaml](formalization.yaml),
 [source provenance](docs/PROVENANCE.md), and the
