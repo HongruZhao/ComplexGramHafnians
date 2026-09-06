@@ -2,13 +2,13 @@ version: "v0.4"
 
 project:
   name: "ComplexGramHafnians"
-  description: "Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry"
+  description: "Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry"
   authors:
     - "Hongru Zhao"
   license: "GPL-3.0-only"
 
 sources:
-  - title: "Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry"
+  - title: "Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry"
     authors:
       - "Hongru Zhao"
     type: "article"

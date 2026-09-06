@@ -1,6 +1,7 @@
 # Provenance and reproducibility
 
-Prepared locally on 2026-09-06 for Hongru Zhao's **Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry**.
+Prepared locally on 2026-09-06 for Hongru Zhao's **Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry**.
+The manuscript previously used the title *Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry*.
 The starting source project was `verification_2026-09-04/sources/GBS_Anticoncentration_Lean`
 in the two-paper workspace. The author manuscript used for the crosswalk is
 the Sept. 5 revision, including the subsequent abstract edits. No manuscript

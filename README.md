@@ -1,7 +1,7 @@
 # Complex Gram Hafnians
 
 Lean 4 formalization of the two headline results in Hongru Zhao,
-*Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional
+*Local Anticoncentration for Gaussian Boson Sampling via Conditional
 Wishart Geometry*: Theorems 2.1 and 2.3 in the revised manuscript.
 
 The public results use actual Gaussian matrix probability laws and are proved
@@ -125,3 +125,12 @@ See [formalization.yaml](formalization.yaml),
 [source provenance](docs/PROVENANCE.md), and the
 [inherited source hashes](docs/INHERITED_SOURCES.json).
 The existing [GPL-3.0 license](LICENSE) and source notices are preserved.
+
+## Archival release
+
+The companion [Zenodo archive](https://doi.org/10.5281/zenodo.22554594),
+version **1.1.0**, preserves a fixed snapshot of this focused repository together
+with the broader Lean development, paper-to-code correspondence, and verification
+records. GitHub is the development location for Theorems **2.1** and **2.3**;
+Zenodo archives the wider verification materials and documents their coverage
+limits. Manuscript PDFs and LaTeX files are not included in the Zenodo ZIP.
