@@ -61,7 +61,20 @@ does not depend on the diagonal. Theorem 2.3 states
 \le\min\{1,b_n\varepsilon^2\},\qquad b_n\le2\sqrt{n/\pi}.
 ```
 
-| Public declaration | Specification |
+The Lean names `Theorem21` and `Theorem23` refer to manuscript Theorems
+**2.1** and **2.3**, respectively:
+
+- **Theorem 2.1 (finite complex Gram ensemble):** the shifted disk-probability
+  bound for $\mathrm{haf}(X^{\mathsf{T}}X)$, with coefficient $B_{k,n}$,
+  for $n\ge 1$ and $k\ge 4n$.
+- **Theorem 2.3 (independent complex symmetric Gaussian ensemble):** the
+  shifted disk-probability bound for $\mathrm{haf}(S)$, with coefficient
+  $b_n$, for $n\ge 1$.
+
+Each Lean specification also includes the normalization and coefficient facts
+listed above. The declarations below prove those specifications.
+
+| Public declaration | Lean specification |
 | --- | --- |
 | `ComplexGramHafnians.theorem2_1` | `Theorem21 n k`, under $1\le n$ and $4n\le k$ |
 | `ComplexGramHafnians.theorem2_3` | `Theorem23 n`, under $1\le n$ |
@@ -95,8 +108,6 @@ its precise use of caches.
 The release follows the public-result, explicit-assumption, pinned-build, and
 formalization-metadata organization of
 [PrimeGaps186](https://github.com/openai/PrimeGaps186/tree/61340d0b74163003b32756bb16e91d9209a5e330).
-Its proposition-valued `Challenge.lean` and strict Lean axiom audit follow
-[RealGramHafnians](https://github.com/HongruZhao/RealGramHafnians/tree/0a44d28245d78bdf095922f4268979ec62b3bf19).
 There are no intentional theorem placeholders in this release.
 
 The specification shares model definitions with the proof library. This is
