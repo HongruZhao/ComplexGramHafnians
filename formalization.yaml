@@ -1,0 +1,72 @@
+version: "v0.4"
+
+project:
+  name: "ComplexGramHafnians"
+  description: "Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry"
+  authors:
+    - "Hongru Zhao"
+  license: "GPL-3.0-only"
+
+sources:
+  - title: "Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry"
+    authors:
+      - "Hongru Zhao"
+    type: "article"
+    location: "Theorems 2.1 and 2.3"
+    relationship: "formalizes"
+    note: "Local revised manuscript; no public manuscript URL is asserted."
+
+classification:
+  arxiv:
+    - "quant-ph"
+    - "math.PR"
+
+status:
+  scope: "Theorems 2.1 and 2.3 for actual complex Gram and full symmetric Gaussian matrix models; no project axioms."
+  main_results:
+    - declaration: "ComplexGramHafnians.theorem2_1"
+      file: "ComplexGramHafnians.lean"
+      sorry_count: 0
+      axioms:
+        - "propext"
+        - "Classical.choice"
+        - "Quot.sound"
+    - declaration: "ComplexGramHafnians.theorem2_3"
+      file: "ComplexGramHafnians.lean"
+      sorry_count: 0
+      axioms:
+        - "propext"
+        - "Classical.choice"
+        - "Quot.sound"
+
+automation:
+  methods:
+    - method: "agent"
+      models:
+        - "GPT-6"
+      framework: "Codex"
+      tool_setup: "Lean 4.33.0-rc2, pinned mathlib, Lake, Lean.collectAxioms, and Python source/package checks."
+  notes: "New focused release assembled from the existing author proof library under human direction."
+
+review:
+  status: "self-assessed"
+  notes: >-
+    See verification/STATUS.md and the source-hashed receipts for the actual build outcome.
+    The public specification shares model definitions with the proof library.
+    Comparator and Nanoda were not run. No independent human semantic review is claimed.
+
+alignment:
+  namespace: "ComplexGramHafnians"
+  statements:
+    - source: "Theorem 2.1"
+      lean: "ComplexGramHafnians.theorem2_1"
+      module: "ComplexGramHafnians"
+      status: "proved"
+    - source: "Theorem 2.3"
+      lean: "ComplexGramHafnians.theorem2_3"
+      module: "ComplexGramHafnians"
+      status: "proved"
+
+acknowledgements: >-
+  The authors and contributors of Lean, mathlib, and Lake; the existing GBS proof library;
+  PrimeGaps186 and RealGramHafnians for the release and verification organization.

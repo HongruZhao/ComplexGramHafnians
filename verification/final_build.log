@@ -1,0 +1,1716 @@
+Command: ['/Users/arthur/.elan/bin/lake', 'build']
+Started UTC: 2026-09-06T20:19:16.951325+00:00
+⚠ [3633/3769] Replayed LogdetLean.GramHafnian.GaussianEvenMoments
+warning: LogdetLean/GramHafnian/GaussianEvenMoments.lean:51:10: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: LogdetLean/GramHafnian/GaussianEvenMoments.lean:86:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/GaussianEvenMoments.lean:115:2: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8708/8764] Replayed LogdetLean.Coherence.PairBeta
+warning: LogdetLean/Coherence/PairBeta.lean:38:0: automatically included section variable(s) unused in theorem `LogdetLean.Coherence.normSq_spanProjection_ratio_eq_squaredNormalizedInner`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8709/8764] Replayed LogdetLean.Coherence.RubenCoordinates
+warning: LogdetLean/Coherence/RubenCoordinates.lean:51:0: automatically included section variable(s) unused in theorem `LogdetLean.Coherence.measurable_gaussianAxisResidualEnergy`:
+  [FiniteDimensional ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/Coherence/RubenCoordinates.lean:70:0: automatically included section variable(s) unused in theorem `LogdetLean.Coherence.normSq_spanProjection_eq_axisCoordinate_sq`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8720/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.Realification
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:118:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:118:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:128:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:142:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:155:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:171:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realColumnPair_mul_complexPairTransform`:
+  [Fintype k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:181:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:185:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:189:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.map_realPairGram`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:198:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hermitianGram_complexOfRealPair`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:205:30: This simp argument is unused:
+  Finset.sum_sub_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hermitianGram, complexOfRealPair, qOfRealBlocks, Matrix.mul_apply, Finset.sum_add_distrib, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:206:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:209:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.transposeGramMatrix_complexOfRealPair`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:217:6: Unused tactic linter: `ring_nf` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:217:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:220:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.conjugateColumnPair_gram`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:229:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.transposeGramMatrix_isSymm`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:235:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hermitianGram_isHermitian`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:255:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.map_star_eq_transpose_of_isHermitian`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Realification.lean:269:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.map_star_conjTranspose_of_isSymm`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8721/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.ScoreAlgebra
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreAlgebra.lean:84:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.ofReal_re_diagonal_eq`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreAlgebra.lean:102:28: This simp argument is unused:
+  Finset.sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.trace, scoreDeltaM, realBlockMatrix, scoreDeltaU, scoreDeltaV, recoverU, recoverV,
+    Fintype.sum_sum_type, Complex.ofReal_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreAlgebra.lean:198:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realFrobeniusInner_eq_trace_transpose_mul`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8722/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.Divergence
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Divergence.lean:96:21: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, Matrix.single_apply, Finset.sum_ite_eq, Finset.mem_univ, Finset.mul_sum, ite_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Divergence.lean:96:37: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, Matrix.single_apply, Finset.sum_ite_eq, Finset.mem_univ, Finset.sum_mul, ite_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Divergence.lean:112:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realWishartGram_inv_isSymm`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Divergence.lean:139:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.trace_inverseGram_projection`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8723/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.Differentiability
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:30:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hasDerivAt_matrixLine`:
+  [Fintype k]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype k] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:42:25: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:42:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:45:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hasDerivAt_realWishartGram_matrixLine`:
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:69:31: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:74:31: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:76:29: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:69:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:74:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:76:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:166:6: Unused tactic linter: `simp [Function.comp_def, squareMatrixEntryCLM, squareMatrixEntryLinearMap]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:168:6: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:166:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:168:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:171:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hasDerivAt_matrixLine_apply`:
+  [Fintype k]
+  [Fintype m]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype k] [Fintype m] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:179:25: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:179:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:193:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.steinVectorFieldRawLinearization_eq`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:240:8: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:275:6: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:240:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:275:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/Differentiability.lean:270:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8724/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.GaussianIBP
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GaussianIBP.lean:68:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GaussianIBP.lean:68:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GaussianIBP.lean:269:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GaussianIBP.lean:270:4: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+⚠ [8725/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.WeightedDivergence
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/WeightedDivergence.lean:155:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.two_mul_weighted_frobenius_steinVectorFieldValue`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8727/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.IntegratedScore
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedScore.lean:70:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.integral_inverseGram_trace_eq_of_score_identity`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8732/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.MatrixGaussianBridge
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/MatrixGaussianBridge.lean:98:13: This simp argument is unused:
+  NNReal.coe_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [NNReal.coe_mk, NNReal.coe_one, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/MatrixGaussianBridge.lean:98:44: This simp argument is unused:
+  NNReal.coe_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [NNReal.coe_mul, NNReal.coe_mk, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8735/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.SteinFieldSlice
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldSlice.lean:78:40: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flatCoordinateMatrixUnit, hl']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldSlice.lean:80:40: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flatCoordinateMatrixUnit, hb']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldSlice.lean:113:29: Unused tactic linter: `exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldSlice.lean:113:29: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [8738/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.PreservedSWeight
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSWeight.lean:174:7: Unused tactic linter: `funext X` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSWeight.lean:174:17: Unused tactic linter: `simp [B, realWishartGram]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSWeight.lean:176:6: Unused tactic linter: `simp [preservedMatrixTopologicalSpace, preservedMatrixUniformSpace,
+  preservedMatrixPseudoMetricSpace]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSWeight.lean:174:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSWeight.lean:176:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [8739/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.SchurCauchy
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:31:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.schurCorrection_posSemidef`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:51:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:52:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:71:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:72:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:73:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:74:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:68:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:69:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:86:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:87:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:89:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:90:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:104:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.coupledGramKernel_eq_fromBlocks_adjoint`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:159:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:160:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:162:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:164:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:191:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.vectorNormSq_pos`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:198:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.quadraticFormReal_pos`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SchurCauchy.lean:217:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.quadraticFormReal_conjTranspose_mul_self`:
+  [DecidableEq m]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8740/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.ScoreTransformPairing
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:38:28: This simp argument is unused:
+  Complex.I_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:39:31: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:39:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:49:28: This simp argument is unused:
+  Complex.I_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:50:31: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:50:31: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:179:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hermitianRankOne_isHermitian`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:186:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.trace_mul_hermitianRankOne`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:208:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.trace_mul_fromBlocks_diagonal`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:219:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.trace_map_star_mul_map_star`:
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:224:40: This simp argument is unused:
+  map_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.trace, Matrix.mul_apply, map_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:224:49: This simp argument is unused:
+  map_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.trace, Matrix.mul_apply, map_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:253:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.coupledConjugation_fromBlocks`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:260:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.coupledConjugation_one`:
+  [Fintype m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/ScoreTransformPairing.lean:274:4: This simp argument is unused:
+  Matrix.map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coupledConjugation_fromBlocks, Matrix.fromBlocks_multiply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8741/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.RealMatrixSplit
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/RealMatrixSplit.lean:26:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realColumnPair_left_right`:
+  [Fintype k]
+  [Fintype m]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype k] [Fintype m] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/RealMatrixSplit.lean:44:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.coupledGramKernel_det_isUnit_of_realPairGram`:
+  [DecidableEq k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8753/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.InverseTraceBounds
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:32:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.matrixEntryAbsMass_nonneg`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:42:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.one_le_matrixEntryUnitBound`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:46:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.abs_entry_le_matrixEntryUnitBound`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:65:16: This simp argument is unused:
+  one_le_matrixEntryUnitBound
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hb, matrixEntryUnitBound, matrixEntryAbsMass_nonneg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:122:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.rectangularSqMass_nonneg`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceBounds.lean:127:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.column_sqMass_le_rectangularSqMass`:
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8759/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.InverseTraceIntegrability
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:262:23: This simp argument is unused:
+  EuclideanSpace.inner_toLp_toLp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardToHalfMatrix,
+    Matrix.smul_apply, smul_eq_mul, Matrix.gram_apply, dotProduct, starRingEnd_apply, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:262:55: This simp argument is unused:
+  dotProduct
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardToHalfMatrix,
+    Matrix.smul_apply, smul_eq_mul, Matrix.gram_apply, EuclideanSpace.inner_toLp_toLp, starRingEnd_apply, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:263:4: This simp argument is unused:
+  starRingEnd_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardToHalfMatrix,
+    Matrix.smul_apply, smul_eq_mul, Matrix.gram_apply, EuclideanSpace.inner_toLp_toLp, dotProduct, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:263:23: This simp argument is unused:
+  star_trivial
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardToHalfMatrix,
+    Matrix.smul_apply, smul_eq_mul, Matrix.gram_apply, EuclideanSpace.inner_toLp_toLp, dotProduct, starRingEnd_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:297:4: This simp argument is unused:
+  EuclideanSpace.inner_toLp_toLp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardMatrix, Matrix.gram_apply,
+    dotProduct, starRingEnd_apply, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:297:36: This simp argument is unused:
+  dotProduct
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardMatrix, Matrix.gram_apply,
+    EuclideanSpace.inner_toLp_toLp, starRingEnd_apply, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:297:48: This simp argument is unused:
+  starRingEnd_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardMatrix, Matrix.gram_apply,
+    EuclideanSpace.inner_toLp_toLp, dotProduct, star_trivial]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:298:4: This simp argument is unused:
+  star_trivial
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [realWishartGram, Matrix.mul_apply, Matrix.transpose_apply, nestedStandardMatrix, Matrix.gram_apply,
+    EuclideanSpace.inner_toLp_toLp, dotProduct, starRingEnd_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:350:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/InverseTraceIntegrability.lean:523:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8760/8880] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.HermitianRankOneDecomposition
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:33:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hermitianRealCoordinateDirection_isHermitian`:
+  [Fintype m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:38:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.hermitianImagCoordinateDirection_isHermitian`:
+  [Fintype m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:70:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:112:56: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:112:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:147:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.scoreDeltaM_add`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:156:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.scoreDeltaM_real_smul`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/HermitianRankOneDecomposition.lean:164:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.scoreDeltaM_zero`:
+  [Fintype m]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8762/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.IntegratedRankOneScore
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:36:8: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:38:8: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:32:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.integrable_double_fintype_sum`:
+  [DecidableEq m]
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] [MeasurableSpace Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:47:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:48:4: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:51:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/IntegratedRankOneScore.lean:42:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.integral_double_fintype_sum`:
+  [DecidableEq m]
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq m] [MeasurableSpace Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8765/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.PreservedSMeasureExtension
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:38:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.commonAbsoluteShift_add_left_nonneg`:
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:44:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.commonAbsoluteShift_add_right_nonneg`:
+  [MeasurableSpace Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:75:8: automatically included section variable(s) unused in theorem `_private.LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.PreservedSMeasureExtension.0.LogdetLean.GramHafnian.Wishart.integral_positiveCoordinateMeasure`:
+  [TopologicalSpace X]
+  [T2Space X]
+  [BorelSpace X]
+  [LocallyCompactSpace X]
+  [TopologicalSpace.PseudoMetrizableSpace X]
+  [SigmaCompactSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace
+  X] [T2Space
+  X] [BorelSpace
+  X] [LocallyCompactSpace X] [TopologicalSpace.PseudoMetrizableSpace X] [SigmaCompactSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:128:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:131:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:134:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PreservedSMeasureExtension.lean:137:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8775/8930] Replayed LogdetLean.GramHafnian.ComplexProductMoments
+warning: LogdetLean/GramHafnian/ComplexProductMoments.lean:63:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8776/8930] Replayed LogdetLean.GramHafnian.CircularGaussianMoments
+warning: LogdetLean/GramHafnian/CircularGaussianMoments.lean:89:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/CircularGaussianMoments.lean:211:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/CircularGaussianMoments.lean:412:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8779/8930] Replayed LogdetLean.GramHafnian.CircularGaussianVectorWick
+warning: LogdetLean/GramHafnian/CircularGaussianVectorWick.lean:99:28: This simp argument is unused:
+  hia
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairExponent, hib, hab, Ne.symm hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/CircularGaussianVectorWick.lean:99:38: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairExponent, hia, hib, Ne.symm hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/CircularGaussianVectorWick.lean:182:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8780/8930] Replayed LogdetLean.GramHafnian.CircularGaussianSecondWick
+warning: LogdetLean/GramHafnian/CircularGaussianSecondWick.lean:84:31: This simp argument is unused:
+  Ne.symm hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [singleExponent, hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8781/8930] Replayed LogdetLean.GramHafnian.PerfectMatchingCount
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:145:12: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:125:15: This simp argument is unused:
+  hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, hxy.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:128:17: This simp argument is unused:
+  hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, hxy.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:160:20: This simp argument is unused:
+  hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [insertPair, hxy.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:299:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:302:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:310:22: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LogdetLean/GramHafnian/PerfectMatchingCount.lean:310:22: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8782/8930] Replayed LogdetLean.GramHafnian.AuxiliaryFieldExpansion
+warning: LogdetLean/GramHafnian/AuxiliaryFieldExpansion.lean:30:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.prod_comp_eq_coordinatePowerProduct`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/AuxiliaryFieldExpansion.lean:67:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.integral_realCoordinatePowerProduct_pi`:
+  [DecidableEq K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/AuxiliaryFieldExpansion.lean:152:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.integral_complexCoordinatePowerProduct_pi`:
+  [DecidableEq K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8785/8930] Replayed LogdetLean.GramHafnian.WickRegrouping
+warning: LogdetLean/GramHafnian/WickRegrouping.lean:279:51: This simp argument is unused:
+  M.apply_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vertexColoringOfPairColoring, hi, hmate]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8790/8930] Replayed LogdetLean.GramHafnian.RankTwoDiagonalGaussian
+warning: LogdetLean/GramHafnian/RankTwoDiagonalGaussian.lean:74:15: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8792/8930] Replayed LogdetLean.GramHafnian.RankTwoCentralBinomial
+warning: LogdetLean/GramHafnian/RankTwoCentralBinomial.lean:84:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8793/8930] Replayed LogdetLean.GramHafnian.RankOneGaussianBilinear
+info: LogdetLean/GramHafnian/RankOneGaussianBilinear.lean:73:64: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/RankOneGaussianBilinear.lean:73:47: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/RankOneGaussianBilinear.lean:73:60: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/RankOneGaussianBilinear.lean:270:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/RankOneGaussianBilinear.lean:271:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8794/8930] Replayed LogdetLean.GramHafnian.RankTwoQuadraticTransform
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:35:12: This simp argument is unused:
+  hj
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:243:10: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.choose_zero_right, Nat.cast_one, one_pow, Nat.sub_zero, zero_add, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:243:20: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.choose_zero_right, Nat.cast_one, one_pow, Nat.sub_zero, if_false, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:253:25: This simp argument is unused:
+  Nat.choose_one_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_add, Nat.cast_one, Nat.add_sub_cancel, Nat.reduceLeDiff, if_true, Nat.sub_zero,
+    Nat.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:251:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:532:8: This simp argument is unused:
+  Nat.choose_zero_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.reduceLeDiff, if_false, zero_add, Nat.zero_le, if_true, Nat.cast_one, one_mul, Nat.sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:532:31: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.reduceLeDiff, if_false, zero_add, Nat.zero_le, if_true, Nat.choose_zero_right, one_mul,
+    Nat.sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:532:45: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.reduceLeDiff, if_false, zero_add, Nat.zero_le, if_true, Nat.choose_zero_right, Nat.cast_one,
+    Nat.sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:580:12: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_neg (by omega : ¬j ≤ N + 2), if_neg (by omega : ¬j - 1 ≤ N + 1), if_neg (by omega : ¬j ≤ N + 1),
+    if_neg (by omega : ¬j - 1 ≤ N), mul_zero, add_zero, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:613:59: This simp argument is unused:
+  eval_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval_mul, eval_C, eval_sub, eval_add, eval_X] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoQuadraticTransform.lean:615:2: Unused tactic linter: `change
+  _ =
+    4 * ((2 * N + 3 : Nat) : Real) * (C ^ 2 + D ^ 2) * centralBinomialQuadraticValue (N + 1) C D -
+      16 * ((N + 1 : Nat) : Real) * (C ^ 2 - D ^ 2) ^ 2 * centralBinomialQuadraticValue N C D` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8797/8930] Replayed LogdetLean.GramHafnian.RankTwoEuclideanBridge
+warning: LogdetLean/GramHafnian/RankTwoEuclideanBridge.lean:121:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.rankTwoActionLinear_apply`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoEuclideanBridge.lean:126:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.innerRankTwoBilinear_eq_euclideanDiagonal_of_eigenbasis`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoEuclideanBridge.lean:166:13: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoEuclideanBridge.lean:166:23: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8798/8930] Replayed LogdetLean.GramHafnian.RankTwoConditionalMoment
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:29:42: This simp argument is unused:
+  rankTwoSpan
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:33:42: This simp argument is unused:
+  rankTwoSpan
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:35:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.rankTwoSpanFirst_coe`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:38:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.rankTwoSpanSecond_coe`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:55:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:58:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:61:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:64:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:43:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.innerRankTwoBilinear_eq_spanProjection`:
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:113:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.linearIndependent_rankTwoSpan`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:128:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.finrank_rankTwoSpan_eq_two`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:280:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/RankTwoConditionalMoment.lean:282:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8800/8930] Replayed LogdetLean.GramHafnian.RankTwoOuterBeta
+warning: LogdetLean/GramHafnian/RankTwoOuterBeta.lean:133:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.squaredNormalizedInner_eq_axisEnergyRatio`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/RankTwoOuterBeta.lean:162:46: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gaussianPairRadialAngleCoordinates, LogdetLean.Coherence.retainFirstAndGaussianAxisCoordinates]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoOuterBeta.lean:170:48: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gaussianPairRadialAngleCoordinates, squareBetaGammaTransform, LogdetLean.betaGammaCoord_apply,
+    LogdetLean.Coherence.retainFirstAndGaussianAxisCoordinates, LogdetLean.Coherence.gaussianAxisCoordinates,
+    LogdetLean.Coherence.gaussianAxisResidualEnergy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/RankTwoOuterBeta.lean:370:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.innerMonomial_eq_radialAngleMonomial`:
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8804/8930] Replayed LogdetLean.GramHafnian.AsymptoticCritical
+warning: LogdetLean/GramHafnian/AsymptoticCritical.lean:99:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: LogdetLean/GramHafnian/AsymptoticCritical.lean:147:30: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/AsymptoticCritical.lean:147:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/AsymptoticCritical.lean:187:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8814/8930] Replayed LogdetLean.GramHafnian.SymmetricGaussianHafnian.Ensemble
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/Ensemble.lean:126:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/Ensemble.lean:208:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8824/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.CofactorEnergy
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/CofactorEnergy.lean:29:8: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/CofactorEnergy.lean:90:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/CofactorEnergy.lean:99:6: Unused tactic linter: `change p.1.1 = j.1.1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/CofactorEnergy.lean:111:8: This simp argument is unused:
+  card_oddCofactorIndex
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8826/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.ComplexGaussianFullRank
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/ComplexGaussianFullRank.lean:32:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.measurableSet_complexLinearlyIndependentFamilies`:
+  [FiniteDimensional ℂ E]
+  [IsScalarTower ℝ ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] [IsScalarTower ℝ ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/ComplexGaussianFullRank.lean:55:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.complexSpan_restrictScalars_ne_top`:
+  [FiniteDimensional ℂ E]
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/ComplexGaussianFullRank.lean:149:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.complexLinearIndependent_const_smul`:
+  [FiniteDimensional ℂ E]
+  [FiniteDimensional ℝ E]
+  [MeasurableSpace E]
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℂ E] [FiniteDimensional ℝ E] [MeasurableSpace E] [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8827/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.GaussianGamma
+info: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianGamma.lean:27:29: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianGamma.lean:27:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianGamma.lean:77:29: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianGamma.lean:77:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8828/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.GaussianNormGamma
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianNormGamma.lean:49:15: This simp argument is unused:
+  Function.comp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [circularVectorNormSq, norm_smul, Real.norm_eq_abs, abs_inv,
+    abs_of_pos (Real.sqrt_pos.2 (by norm_num : (0 : ℝ) < 2)), mul_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/GaussianNormGamma.lean:122:6: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8838/8930] Replayed LogdetLean.GramHafnian.SymmetricGaussianHafnian.CofactorAlgebra
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CofactorAlgebra.lean:271:51: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [backgroundM, hb, ha.1, ha.2, mul_comm, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8841/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.InverseMomentRecurrence
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/InverseMomentRecurrence.lean:46:5: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8842/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.ConstantAlgebra
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/ConstantAlgebra.lean:99:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8844/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.LaplaceOrder
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/LaplaceOrder.lean:63:47: This simp argument is unused:
+  neg_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_zero, Real.exp_zero, neg_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/LaplaceOrder.lean:61:60: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8845/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.ConditionalSmallBall
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/ConditionalSmallBall.lean:70:4: Unused tactic linter: `change mu.real s ≤ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8848/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.AssemblyAlgebra
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/AssemblyAlgebra.lean:20:5: Variable name `hε` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8854/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.CoordinateIteration
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CoordinateIteration.lean:45:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.singleCoordinate_apply_self`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CoordinateIteration.lean:49:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.singleCoordinate_apply_of_ne`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CoordinateIteration.lean:69:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.coordinateEnergy_nonneg`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CoordinateIteration.lean:218:0: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.compressionStep_of_two_endpoints`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8855/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.CofactorPhaseLaw
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CofactorPhaseLaw.lean:238:47: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CofactorPhaseLaw.lean:244:47: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CofactorPhaseLaw.lean:296:33: This simp argument is unused:
+  hij
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [σ, singleCoordinate]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8856/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.LastColumnProduct
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/LastColumnProduct.lean:91:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8858/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.CofactorPositivity
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/CofactorPositivity.lean:41:4: This simp argument is unused:
+  WithLp.ofLp_toLp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sum, map_smul, WithLp.coe_linearEquiv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8866/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.SimplifiedConstantBound
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/SimplifiedConstantBound.lean:95:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8868/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.SingletonCofactorCharacteristic
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/SingletonCofactorCharacteristic.lean:112:10: This simp argument is unused:
+  f
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/SingletonCofactorCharacteristic.lean:249:37: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [singleCoordinate]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8871/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.InverseRecurrence
+info: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/InverseRecurrence.lean:69:45: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/InverseRecurrence.lean:68:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/InverseRecurrence.lean:69:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8872/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.CompressionToInverseMoment
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/CompressionToInverseMoment.lean:63:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8873/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.LiteralCofactorLaw
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LiteralCofactorLaw.lean:47:14: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LiteralCofactorLaw.lean:46:8: Unused tactic linter: `change j.1.1 < 2 * r - 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LiteralCofactorLaw.lean:95:13: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.normSq_eq_norm_sq, norm_star]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LiteralCofactorLaw.lean:129:13: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.inner, starRingEnd_apply, star_star]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [8874/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.GeneralBilinearGaussian
+info: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/GeneralBilinearGaussian.lean:87:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+⚠ [8876/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.FourierCompression.LocalCofactorCompression
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LocalCofactorCompression.lean:56:17: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LocalCofactorCompression.lean:303:6: `Matrix.toEuclideanLin_toLp` has been deprecated: Use `Matrix.toLpLin_toLp` instead
+
+Note: The updated constant has a different type:
+  ∀ {m : Type u_1} {n : Type u_2} {R : Type u_4} [inst : Fintype n] [inst_1 : DecidableEq n] [inst_2 : CommRing R]
+    (p q : ℝ≥0∞) (A : Matrix m n R) (x : n → R),
+    ((Matrix.toLpLin p q) A) (WithLp.toLp p x) = WithLp.toLp q ((Matrix.toLin' A) x)
+instead of
+  ∀ {𝕜 : Type u_3} [inst : RCLike 𝕜] {m : Type u_7} {n : Type u_8} [inst_1 : Fintype n] [inst_2 : DecidableEq n]
+    (A : Matrix m n 𝕜) (x : n → 𝕜), (Matrix.toEuclideanLin A) (WithLp.toLp 2 x) = WithLp.toLp 2 ((Matrix.toLin' A) x)
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LocalCofactorCompression.lean:503:2: Unused tactic linter: `change
+  inner ℝ (complexRealificationEuclidean (A (exposedXIndex m)))
+          (backgroundCofactorT R w (complexRealificationEuclidean (A (exposedYIndex m)))) +
+        inner ℝ (complexRealificationEuclidean (A (exposedXIndex m)))
+          (backgroundCofactorL R (complexPhaseCoordinatesEuclidean (w (exposedYIndex m)))) +
+      inner ℝ (complexRealificationEuclidean (A (exposedYIndex m)))
+        (backgroundCofactorL R (complexPhaseCoordinatesEuclidean (w (exposedXIndex m)))) =
+    _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LocalCofactorCompression.lean:888:22: This simp argument is unused:
+  htheta.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hL0, hR0, sub_pos.mpr htheta_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/FourierCompression/LocalCofactorCompression.lean:1122:34: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.normSq_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8878/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.PastCofactorBridge
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PastCofactorBridge.lean:112:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/PastCofactorBridge.lean:113:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8880/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.LiteralPastRealification
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralPastRealification.lean:23:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realGramBlock11_realWishartGram`:
+  [Fintype m]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralPastRealification.lean:31:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realGramBlock12_realWishartGram`:
+  [Fintype m]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralPastRealification.lean:39:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.realGramBlock22_realWishartGram`:
+  [Fintype m]
+  [DecidableEq k]
+  [DecidableEq m]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [DecidableEq k] [DecidableEq m] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8882/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.SumColumnScoreTransport
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SumColumnScoreTransport.lean:94:8: `Matrix.reindexAlgEquiv_mul` has been deprecated: Use `map_mul` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_4} {N : Type u_5} {F : Type u_9} [inst : Mul M] [inst_1 : Mul N] [inst_2 : FunLike F M N]
+    [MulHomClass F M N] (f : F) (x y : M), f (x * y) = f x * f y
+instead of
+  ∀ {m : Type u_2} {n : Type u_3} (R : Type u_11) (A : Type u_12) [inst : CommSemiring R] [inst_1 : Fintype n]
+    [inst_2 : Fintype m] [inst_3 : DecidableEq m] [inst_4 : DecidableEq n] [inst_5 : Semiring A] [inst_6 : Algebra R A]
+    (e : m ≃ n) (M N : Matrix m m A),
+    (Matrix.reindexAlgEquiv R A e) (M * N) = (Matrix.reindexAlgEquiv R A e) M * (Matrix.reindexAlgEquiv R A e) N
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.reindexAlgEquiv_mul` to `map_mul x`).
+⚠ [8885/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.GenericPreservedSReindex
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GenericPreservedSReindex.lean:110:8: `Matrix.reindexAlgEquiv_mul` has been deprecated: Use `map_mul` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_4} {N : Type u_5} {F : Type u_9} [inst : Mul M] [inst_1 : Mul N] [inst_2 : FunLike F M N]
+    [MulHomClass F M N] (f : F) (x y : M), f (x * y) = f x * f y
+instead of
+  ∀ {m : Type u_2} {n : Type u_3} (R : Type u_11) (A : Type u_12) [inst : CommSemiring R] [inst_1 : Fintype n]
+    [inst_2 : Fintype m] [inst_3 : DecidableEq m] [inst_4 : DecidableEq n] [inst_5 : Semiring A] [inst_6 : Algebra R A]
+    (e : m ≃ n) (M N : Matrix m m A),
+    (Matrix.reindexAlgEquiv R A e) (M * N) = (Matrix.reindexAlgEquiv R A e) M * (Matrix.reindexAlgEquiv R A e) N
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.reindexAlgEquiv_mul` to `map_mul x`).
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GenericPreservedSReindex.lean:314:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GenericPreservedSReindex.lean:321:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/GenericPreservedSReindex.lean:329:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8886/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.RegularizedCofactorWeights
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/RegularizedCofactorWeights.lean:80:54: Variable name `hδ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hδ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8889/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.SteinFieldCoordinateBounds
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldCoordinateBounds.lean:118:33: This simp argument is unused:
+  Matrix.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [U, Matrix.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldCoordinateBounds.lean:183:8: automatically included section variable(s) unused in theorem `LogdetLean.GramHafnian.Wishart.single_mul_apply_same`:
+  [Fintype k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldCoordinateBounds.lean:200:30: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, hx, hax]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/SteinFieldCoordinateBounds.lean:215:30: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, hx, hix]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8898/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.BoundedPreservedSScore
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/BoundedPreservedSScore.lean:139:36: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8901/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.RegularizedInverseMomentLimit
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/RegularizedInverseMomentLimit.lean:34:5: Variable name `hV` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8902/8930] Replayed LogdetLean.GramHafnian.ShiftedAnticoncentration.Wishart.LiteralRegularizedLimit
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralRegularizedLimit.lean:64:50: This simp argument is unused:
+  Matrix.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.inv_def, Ring.inverse_eq_inv, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralRegularizedLimit.lean:65:4: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.inv_def, Ring.inverse_eq_inv, Matrix.smul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralRegularizedLimit.lean:152:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/ShiftedAnticoncentration/Wishart/LiteralRegularizedLimit.lean:153:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8910/8930] Replayed LogdetLean.GramHafnian.SymmetricGaussianHafnian.CircularGaussianAnderson
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:44:31: `Set.mem_diff` has been deprecated: Use `Set.mem_sdiff` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:117:23: `MeasureTheory.measure_inter_add_diff` has been deprecated: Use `MeasureTheory.measure_inter_add_sdiff` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:119:24: `MeasureTheory.measure_inter_add_diff` has been deprecated: Use `MeasureTheory.measure_inter_add_sdiff` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:152:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:161:35: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:176:35: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:152:26: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_smul, Set.mem_setOf_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/CircularGaussianAnderson.lean:152:36: This simp argument is unused:
+  Set.mem_setOf_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8911/8930] Replayed LogdetLean.GramHafnian.SymmetricGaussianHafnian.GaussianPerturbationBall
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/GaussianPerturbationBall.lean:51:33: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: LogdetLean/GramHafnian/SymmetricGaussianHafnian/GaussianPerturbationBall.lean:127:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8924/8930] Replayed LogdetLean.GramHafnian.CurrentPRL.CoefficientEndpoints
+info: LogdetLean/GramHafnian/CurrentPRL/CoefficientEndpoints.lean:589:41: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientEndpoints.lean:793:28: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientEndpoints.lean:1052:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientEndpoints.lean:1117:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientEndpoints.lean:1129:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8925/8930] Replayed LogdetLean.GramHafnian.CurrentPRL.CoefficientPaperEndpoints
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientPaperEndpoints.lean:271:6: Unused tactic linter: `push_cast at hkR` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientPaperEndpoints.lean:390:28: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.card_Icc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: LogdetLean/GramHafnian/CurrentPRL/CoefficientPaperEndpoints.lean:499:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: LogdetLean/GramHafnian/CurrentPRL/CoefficientPaperEndpoints.lean:498:8: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8927/8930] Built ComplexGramHafnians (15s)
+ℹ [8929/8930] Built Verification (8.3s)
+info: Verification.lean:8:0: PASS ComplexGramHafnians.theorem2_1: exactly 3 axioms: [propext, Classical.choice, Quot.sound]
+info: Verification.lean:8:0: PASS ComplexGramHafnians.theorem2_3: exactly 3 axioms: [propext, Classical.choice, Quot.sound]
+info: Verification.lean:20:0: 'ComplexGramHafnians.theorem2_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Verification.lean:21:0: 'ComplexGramHafnians.theorem2_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8930 jobs).
+
+Exit status: 0

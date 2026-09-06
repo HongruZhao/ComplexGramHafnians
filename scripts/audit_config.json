@@ -1,0 +1,9 @@
+{
+  "local_roots": [
+    "LogdetLean",
+    "ComplexGramHafnians",
+    "Challenge",
+    "Verification"
+  ],
+  "axioms": []
+}
